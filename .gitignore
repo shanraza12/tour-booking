@@ -32,3 +32,8 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+*.env
+.env
+backend/.env.txt
+.env
+*.env
