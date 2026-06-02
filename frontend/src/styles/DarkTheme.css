@@ -1,0 +1,83 @@
+/* Dark Theme Overrides for frontend */
+body.dark-theme {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+body.dark-theme .header {
+  background-color: #1f1f1f !important;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5) !important;
+}
+
+body.dark-theme .nav__links a,
+body.dark-theme .nav__links span,
+body.dark-theme .header button {
+  color: #e0e0e0 !important;
+}
+
+body.dark-theme .footer {
+  background-color: #1a1a1a !important;
+  color: #b0b0b0 !important;
+}
+
+body.dark-theme .card,
+body.dark-theme .booking,
+body.dark-theme .tour__content,
+body.dark-theme .review__item,
+body.dark-theme .list-group-item,
+body.dark-theme .accordion-item,
+body.dark-theme .bg-white,
+body.dark-theme .bg-light {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
+  border-color: #333 !important;
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5,
+body.dark-theme h6,
+body.dark-theme p {
+  color: #e0e0e0 !important;
+}
+
+body.dark-theme input,
+body.dark-theme textarea,
+body.dark-theme select {
+  background-color: #2b2b2b !important;
+  color: #fff !important;
+  border: 1px solid #444 !important;
+}
+
+body.dark-theme .text-dark {
+  color: #e0e0e0 !important;
+}
+
+body.dark-theme .nav-link,
+body.dark-theme .text-muted {
+  color: #999 !important;
+}
+
+body.dark-theme .border,
+body.dark-theme .border-bottom,
+body.dark-theme .border-top {
+  border-color: #333 !important;
+}
+
+body.dark-theme .shadow-sm,
+body.dark-theme .shadow-lg,
+body.dark-theme .shadow-2xl {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5) !important;
+}
+
+/* Ensure buttons stay legible */
+body.dark-theme .btn-primary {
+  color: #fff !important;
+}
+body.dark-theme .btn-light {
+  background-color: #333 !important;
+  color: #e0e0e0 !important;
+  border-color: #444 !important;
+}
